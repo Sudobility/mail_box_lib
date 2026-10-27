@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
     // Temporarily relax some strict settings for build compatibility
     "noUnusedLocals": false,
     "noUnusedParameters": false,
