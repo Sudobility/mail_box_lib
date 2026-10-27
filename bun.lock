@@ -11,10 +11,10 @@
         "@sudobility/configs": "^0.0.83",
         "@sudobility/contracts": "^1.17.89",
         "@sudobility/di": "^1.5.82",
-        "@sudobility/indexer_client": "^0.0.157",
+        "@sudobility/indexer_client": "^0.0.158",
         "@sudobility/mail_box_types": "^1.0.33",
         "@sudobility/types": "^1.9.76",
-        "@sudobility/wildduck_client": "^2.3.113",
+        "@sudobility/wildduck_client": "^2.3.114",
         "@tanstack/react-query": "~5.104.5",
         "@testing-library/dom": "~10.4.2",
         "@testing-library/jest-dom": "~7.0.1",
@@ -49,10 +49,10 @@
         "@sudobility/configs": "^0.0.83",
         "@sudobility/contracts": "^1.17.89",
         "@sudobility/di": "^1.5.82",
-        "@sudobility/indexer_client": "^0.0.157",
+        "@sudobility/indexer_client": "^0.0.158",
         "@sudobility/mail_box_types": "^1.0.33",
         "@sudobility/types": "^1.9.76",
-        "@sudobility/wildduck_client": "^2.3.113",
+        "@sudobility/wildduck_client": "^2.3.114",
         "@tanstack/react-query": ">=5.0.0",
         "react": ">=18.0.0",
         "viem": ">=2.0.0",
@@ -404,13 +404,13 @@
 
     "@sudobility/di": ["@sudobility/di@1.5.82", "https://npm.pkg.github.com/download/@sudobility/di/1.5.82/78ffa45ee6bd3184dec7edc40f36f9acd3021ba1", { "peerDependencies": { "@notifee/react-native": ">=7.0.0", "@react-native-async-storage/async-storage": ">=1.19.0", "@react-native-community/netinfo": ">=9.0.0", "@react-native-firebase/analytics": ">=18.0.0", "@react-native-firebase/app": ">=18.0.0", "@react-native-firebase/messaging": ">=18.0.0", "@sudobility/types": "^1.9.76", "firebase": ">=11.0.0", "react": ">=18.0.0", "react-native": ">=0.70.0" } }, "sha512-gu2Uw8HfUvLkeLJJDeY8VFfBgk33mQ0k7dUr6MqdKjfyjsgE7q7QtBtYFo17D76B75ST061GKm1vumdKrfCFww=="],
 
-    "@sudobility/indexer_client": ["@sudobility/indexer_client@0.0.157", "https://npm.pkg.github.com/download/@sudobility/indexer_client/0.0.157/3d5fc43f506c15e89bc036c271dc3b7352fd92c6", { "peerDependencies": { "@sudobility/configs": "^0.0.83", "@sudobility/di": "^1.5.82", "@sudobility/mail_box_types": "^1.0.33", "@sudobility/types": "^1.9.76", "@tanstack/react-query": ">=5.0.0", "react": ">=18.0.0" } }, "sha512-5UtlJqLRMQk6NJqCM6SJ2VA8JCJOTiYMFeOv6eWKjpVGo7S2hTVa6QRKlonJ/kiKDw19mJa3Uyw9t+i3Jhjijg=="],
+    "@sudobility/indexer_client": ["@sudobility/indexer_client@0.0.158", "https://npm.pkg.github.com/download/@sudobility/indexer_client/0.0.158/8a36629a01c12a5b4cc55c2beea20ec259ec356b", { "peerDependencies": { "@sudobility/configs": "^0.0.83", "@sudobility/di": "^1.5.82", "@sudobility/mail_box_types": "^1.0.33", "@sudobility/types": "^1.9.76", "@tanstack/react-query": ">=5.0.0", "react": ">=18.0.0" } }, "sha512-H9cjkeCa1VwtEKQJp299j7PH9XyMhFPO2LaGCw/gXs+ZdlIZYN8Z0eUtOASwICwW5P+NK6XcMV9Jgbe8t9fS4A=="],
 
     "@sudobility/mail_box_types": ["@sudobility/mail_box_types@1.0.33", "https://npm.pkg.github.com/download/@sudobility/mail_box_types/1.0.33/83360abc730061b51204049feee5b8cbb68a5acc", { "peerDependencies": { "@sudobility/types": "^1.9.76" } }, "sha512-yo4DJRGuOW1cb+lKjEHup+YXDO0fVB1xuLMde4iVd5jO9wDb6rKfBIZpNsjrGRaQBsi5+Jh5KOwDNLMarUP3AA=="],
 
     "@sudobility/types": ["@sudobility/types@1.9.76", "https://npm.pkg.github.com/download/@sudobility/types/1.9.76/71635156f72fd9461107d5f147b3dc1c49f863d0", {}, "sha512-b7maZHR5wM84VlQ+l9R+2guzSOrExog6OUNy1oCe7h0abW13syycmnLQL0g+qql0aQ84qTB4A0mJelhY3Vef4Q=="],
 
-    "@sudobility/wildduck_client": ["@sudobility/wildduck_client@2.3.113", "https://npm.pkg.github.com/download/@sudobility/wildduck_client/2.3.113/4b7b374f535c51ac52947e3d685796d7a2ae47e6", { "peerDependencies": { "@sudobility/di": "^1.5.82", "@sudobility/mail_box_types": "^1.0.33", "@sudobility/types": "^1.9.76", "@tanstack/react-query": ">=5.0.0", "react": ">=18.0.0" } }, "sha512-X2Y+rMrm69sxIey1XxGAUwOfNjv6AF7y7JBBk2FnhA7pcdgpz367lZ06aUZCZBZLiu2t/iRvUEC012aR7TYepg=="],
+    "@sudobility/wildduck_client": ["@sudobility/wildduck_client@2.3.114", "https://npm.pkg.github.com/download/@sudobility/wildduck_client/2.3.114/011727d9879f4b4bfdc7a47e2112c4e0b144132c", { "peerDependencies": { "@sudobility/di": "^1.5.82", "@sudobility/mail_box_types": "^1.0.33", "@sudobility/types": "^1.9.76", "@tanstack/react-query": ">=5.0.0", "react": ">=18.0.0" } }, "sha512-yGOU98inVRHJO4BiwJNNPvT3dpYtBVu/XS1OIWZu4DmfigV1trPnXeYBENHQpv4Ineg9kvxl0G0WR/OfuTEVAw=="],
 
     "@swc/helpers": ["@swc/helpers@0.5.23", "", { "dependencies": { "tslib": "^2.8.0" } }, "sha512-5lSsMOTXURePglDfvuAQUqkGek9Hg2kksOYay2m0+XR++b2NWYL/4sWyuvVBIs8oKnJaxkdi9whaL/sqN13afw=="],
 
