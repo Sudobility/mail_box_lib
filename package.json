@@ -1,6 +1,6 @@
 {
   "name": "@sudobility/mail_box_lib",
-  "version": "3.14.149",
+  "version": "3.14.150",
   "description": "React Native-compatible shared utilities library for blockchain email projects with Optional<T> type safety patterns and comprehensive blockchain integration",
   "type": "module",
   "main": "dist/index.js",
@@ -117,7 +117,6 @@
     "eslint-plugin-prettier": "~5.5.7",
     "eslint-plugin-react-hooks": "~7.1.1",
     "happy-dom": "~20.14.6",
-    "patch-package": "~8.0.1",
     "prettier": "~3.9.10",
     "react": "~19.3.1",
     "react-dom": "~19.3.1",
