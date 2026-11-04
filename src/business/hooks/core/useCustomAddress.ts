@@ -73,31 +73,39 @@ export function useCustomAddress(
   const creditsRemaining = stateQuery.data?.data?.creditsRemaining ?? 1;
   const canSet = creditsRemaining > 0 && !customAddress;
 
+  // Depend on the leaf hooks' individual callbacks (which are stable across
+  // renders) rather than the whole hook-return objects (whose identity changes
+  // on every pending/error/loading transition). Otherwise these wrappers change
+  // identity on each request and loop any effect that depends on them.
+  const { checkAvailability: availabilityCheck } = availability;
+  const { setCustomAddress: setterSetCustomAddress } = setter;
+  const { refetch: refetchState } = stateQuery;
+
   const checkAvailability = useCallback(
     async (
       name: string
     ): Promise<Optional<IndexerCustomAddressAvailabilityData>> => {
-      const response = await availability.checkAvailability(name);
+      const response = await availabilityCheck(name);
       return response?.data;
     },
-    [availability]
+    [availabilityCheck]
   );
 
   const setCustomAddress = useCallback(
     async (name: string): Promise<boolean> => {
-      const response = await setter.setCustomAddress(walletAddress, auth, name);
+      const response = await setterSetCustomAddress(walletAddress, auth, name);
       if (response?.success) {
-        await stateQuery.refetch();
+        await refetchState();
         return true;
       }
       return false;
     },
-    [setter, walletAddress, auth, stateQuery]
+    [setterSetCustomAddress, walletAddress, auth, refetchState]
   );
 
   const refresh = useCallback(async (): Promise<void> => {
-    await stateQuery.refetch();
-  }, [stateQuery]);
+    await refetchState();
+  }, [refetchState]);
 
   const error = availability.error ?? setter.error ?? null;
 
