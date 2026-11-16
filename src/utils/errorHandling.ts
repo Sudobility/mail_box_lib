@@ -5,8 +5,7 @@
  * error boundary wrappers.
  */
 
-import { Optional } from '@sudobility/types';
-import { ERROR_MESSAGES, logger } from '@sudobility/types';
+import { ERROR_MESSAGES, logger, Optional } from '@sudobility/types';
 // import { EnvUtils } from '../../di'; // TODO: Implement proper DI setup
 
 // Platform-specific global
